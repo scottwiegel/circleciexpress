@@ -4,7 +4,7 @@ orbs:
 workflows:
     example-workflow:
       jobs:
-        - node/run
+        - node/test
 jobs:
   build:
     docker: #  tircleci/node:10.0.0 # the primary container, where your job's commands are run
